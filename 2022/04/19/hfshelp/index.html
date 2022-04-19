@@ -331,7 +331,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.1k
+                    2.2k
                 </div>
                 
 
@@ -367,7 +367,7 @@
 <li>输入【#绑定账号】，根据指引设置账号，若已绑定请无视。</li>
 <li>输入【#查询】，获取账号下所有考试。考试ID是每行行首对应的整数。</li>
 <li>输入【#考试详情 [考试ID]】，获取考试信息。举例：#考试详情 1234567</li>
-<li>输入【#科目详情 [科目ID]】，获取科目信息。举例：#科目详情 1234567-1234<!--获取科目详情需要先获取对应考试详情。如你需要获取A考试的[数学]学科分数，需要先查询A考试的考试详情。若你在查询B考试的考试详情后获取A考试的[数学]学科分数则无法查询到。--></li>
+<li>输入【#科目详情 [科目ID]】，获取科目信息。举例：#科目详情 1234567-1234<br>PS：获取科目详情需要先获取对应考试详情。如你需要获取A考试的[数学]学科分数，需要先查询A考试的考试详情。若你在查询B考试的考试详情后获取A考试的[数学]学科分数则无法查询到。</li>
 <li>图片示例：<br>![img](<a target="_blank" rel="noopener" href="https://img.kancloud.cn/a9/37/a937f359e22b27cf7ed420d09ae32c26_338x639.png![img]">https://img.kancloud.cn/a9/37/a937f359e22b27cf7ed420d09ae32c26_338x639.png![img]</a>(<a target="_blank" rel="noopener" href="https://img.kancloud.cn/88/ed/88ed9eca1483477b9e0247f44c0e3ae0_903x667.png">https://img.kancloud.cn/88/ed/88ed9eca1483477b9e0247f44c0e3ae0_903x667.png</a></li>
 </ul>
 </blockquote>
@@ -435,8 +435,34 @@
 </ul>
 </blockquote>
 <hr>
-<h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">Ver 20220320</span><br><span class="line"> 1.插件使用4.6.2 SDK重构。</span><br><span class="line"> 2.修复了部分学校无法正常使用[#科目详情]功能的问题。</span><br><span class="line"> - 此前科目详情的正则匹配使用的是6/7位整数-4位整数，部分学校的短ID为5位整数。</span><br><span class="line"> 3.修复了[#绑定账号]流程无法正常进行验证的问题。</span><br><span class="line"> - 此前部分账号的空白绑定会全部移除。</span><br><span class="line"> 4.修复了[#考试详情]功能中学校不支持查询额外信息仍会进行尝试的问题。</span><br><span class="line"> 5.[#考试详情]功能会显示科目优劣。</span><br><span class="line"> 6.[#科目详情]功能增加科目各小题的得分情况。</span><br><span class="line"> 7.增加[#答题详情]功能。</span><br><span class="line"> 8.增加[#答题卡]功能，原阅卷端答题卡功能指令修改为[#答题卡y]。</span><br><span class="line"></span><br><span class="line">Ver 20220122</span><br><span class="line"> 1.支持使用Cookie登录。</span><br><span class="line"></span><br><span class="line">Ver 20220120</span><br><span class="line"> 1.不再支持 福建省柘荣县第一中学 进行额外信息的查询。</span><br><span class="line"> 2.修复 阅卷端登录错误 的问题。</span><br><span class="line"></span><br><span class="line">Ver 20220117</span><br><span class="line"> 1. 修复[#考试详情]功能回复的联考人数为联考等第的问题。</span><br><span class="line"> 2. 修改部分文案。</span><br><span class="line"> 3. 对[#题块详情]功能回复空白增加了注释。</span><br><span class="line"> 4. 对[#阅中进度]功能错误回复增加了详细注释。</span><br><span class="line"> 5. [#题块详情]功能回复增加了阅卷老师归属学校的ID。</span><br><span class="line"> 6. [#考试详情]功能显示的额外信息支持查看赋分科目的原始分。</span><br><span class="line"> 7. 新增[#答题卡]功能。</span><br><span class="line"></span><br><span class="line">Ver 20220107</span><br><span class="line"> 1. 将[.test]系列指令更换为：#题块详情、#阅中进度。</span><br><span class="line"> 2. 修复[#题块详情][#阅中进度]功能在部分情况下重复获取Cookie的问题。</span><br><span class="line"> 3. 后台-日志推送功能支持自定义消息前缀、二级推送群、推送日志类型。</span><br><span class="line"> 4. 后台-增加[.l]指令，等效于登录+获取阅卷及分析Cookie。</span><br></pre></td></tr></table></figure>
-
+<h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><p>&#96;Ver 20220320<br> 1.插件使用4.6.2 SDK重构。<br> 2.修复了部分学校无法正常使用[#科目详情]功能的问题。</p>
+<ul>
+<li>此前科目详情的正则匹配使用的是6&#x2F;7位整数-4位整数，部分学校的短ID为5位整数。</li>
+</ul>
+<p> 3.修复了[#绑定账号]流程无法正常进行验证的问题。</p>
+<ul>
+<li>此前部分账号的空白绑定会全部移除。</li>
+</ul>
+<p> 4.修复了[#考试详情]功能中学校不支持查询额外信息仍会进行尝试的问题。<br>  5.[#考试详情]功能会显示科目优劣。<br>  6.[#科目详情]功能增加科目各小题的得分情况。<br>  7.增加[#答题详情]功能。<br>  8.增加[#答题卡]功能，原阅卷端答题卡功能指令修改为[#答题卡y]。</p>
+<p>Ver 20220122<br> 1.支持使用Cookie登录。</p>
+<p>Ver 20220120<br> 1.不再支持 福建省柘荣县第一中学 进行额外信息的查询。<br> 2.修复 阅卷端登录错误 的问题。</p>
+<p>Ver 20220117</p>
+<ol>
+<li>修复[#考试详情]功能回复的联考人数为联考等第的问题。</li>
+<li>修改部分文案。</li>
+<li>对[#题块详情]功能回复空白增加了注释。</li>
+<li>对[#阅中进度]功能错误回复增加了详细注释。</li>
+<li>[#题块详情]功能回复增加了阅卷老师归属学校的ID。</li>
+<li>[#考试详情]功能显示的额外信息支持查看赋分科目的原始分。</li>
+<li>新增[#答题卡]功能。</li>
+</ol>
+<p>Ver 20220107</p>
+<ol>
+<li>将[.test]系列指令更换为：#题块详情、#阅中进度。</li>
+<li>修复[#题块详情][#阅中进度]功能在部分情况下重复获取Cookie的问题。</li>
+<li>后台-日志推送功能支持自定义消息前缀、二级推送群、推送日志类型。</li>
+<li>后台-增加[.l]指令，等效于登录+获取阅卷及分析Cookie。&#96;</li>
+</ol>
 <h3 id="未来更新方向（挖坑）"><a href="#未来更新方向（挖坑）" class="headerlink" title="未来更新方向（挖坑）"></a>未来更新方向（挖坑）</h3><blockquote>
 <ol>
 <li>普通用户支持使用教师端（分析&#x2F;阅卷）。</li>
@@ -702,7 +728,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">2.1k</span>
+                        class="white-color">2.2k</span>
             
             
             
