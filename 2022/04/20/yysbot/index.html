@@ -1,0 +1,1281 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="【阴阳师/综合】Moon Bot使用指南, 鹤">
+    <meta name="description" content="关于一些机器人的使用问题。">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    
+
+    <title>【阴阳师/综合】Moon Bot使用指南 | 鹤</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+
+<meta name="generator" content="Hexo 6.1.0"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">鹤</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">鹤</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">【阴阳师/综合】Moon Bot使用指南</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/BotHelp/" class="post-category">
+                                BotHelp
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2022-04-20
+                </div>
+                
+
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    8.4k
+                </div>
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h2 id="阅读须知"><a href="#阅读须知" class="headerlink" title="阅读须知"></a>阅读须知</h2><blockquote>
+<ol>
+<li>指令模板【】中的内容为需要发送的内容，()表示某部分，&#x2F;表示该部分中消息可以进行取舍。如【A(B&#x2F;C)】表示发送’AB’或’AC’都可以，【A(B)(C)D】则表示发送’ABCD’或’ABD’或’ACD’或’AD’都可以。</li>
+<li>【】中的&lt;&gt;为需要自行输入的内容。如【#A <B>】则<B>为需要按照提示信息输入的内容。假设输入的内容为’2’，则需要发送的消息为’#A 2’，字符’&lt;’和’&gt;’不需要打出来。</li>
+<li>本文档自2022.4.20启用，旧文档（<a target="_blank" rel="noopener" href="https://www.kancloud.cn/inher/moonbot/2254958">地址</a>）不再更新。目录仅电脑端可点击跳转。</li>
+</ol>
+</blockquote>
+<hr>
+<h2 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h2><blockquote>
+<p>本程序（机器人）仅服务于与【 <a target="_blank" rel="noopener" href="http://yys.163.com/">阴阳师</a> 】有关的群聊中。在好友&#x2F;群聊消息中发送【功能】时回复该文档地址。<br>本程序可以用来查询【逢魔密信答案】【御魂阵容】【斗技排行】【斗技数据】【悬赏封印地点】【神秘图案】【渠道客户端下载地址】【藏宝阁账号数据】【NGA阴阳师版块贴子】等。</p>
+</blockquote>
+<hr>
+<h2 id="功能-一：逢魔密信答案"><a href="#功能-一：逢魔密信答案" class="headerlink" title="功能 一：逢魔密信答案"></a>功能 一：逢魔密信答案</h2><blockquote>
+<p>发送【#(逢魔密)信 &lt;题目或答案的一部分&gt;】时，会回复对应的题目及答案。如：【#信 狐面】、【#逢魔密信 狐面】</p>
+</blockquote>
+<blockquote>
+<ul>
+<li>当搜索结果超过 3 个时，会将搜索结果通过好友消息发送。（注意：若未添加机器人为好友则收不到消息）</li>
+<li>当搜索结果超过 10 个时，不会进行搜索结果的发送。</li>
+</ul>
+</blockquote>
+<p><img src="https://s3.bmp.ovh/imgs/2022/04/20/782494b3ced29fda.png"></p>
+<hr>
+<h2 id="功能-二：阵容-x2F-神秘图案-x2F-御魂放大镜等"><a href="#功能-二：阵容-x2F-神秘图案-x2F-御魂放大镜等" class="headerlink" title="功能 二：阵容&#x2F;神秘图案&#x2F;御魂放大镜等"></a>功能 二：阵容&#x2F;神秘图案&#x2F;御魂放大镜等</h2><blockquote>
+<p>发送指定消息时，回复对应内容。阵容部分来自部分博主&#x2F;<a target="_blank" rel="noopener" href="https://yys.nga.cn/">NGA</a>。</p>
+</blockquote>
+<blockquote>
+<p>支持的组合如下：</p>
+<ul>
+<li><p>【活动阵容】 注：根据版本当前活动而不定时更新。</p>
+</li>
+<li><p>【(困28&#x2F;探索)(面板&#x2F;配置&#x2F;阵容)】 如：【探索面板】</p>
+</li>
+<li><p>【(魂土&#x2F;御魂悲鸣)(面板&#x2F;配置&#x2F;阵容)】 如：【魂土配置】</p>
+</li>
+<li><p>【(魂十&#x2F;御魂十层)(面板&#x2F;配置&#x2F;阵容)】 如：【魂十阵容】</p>
+</li>
+<li><p>【(觉醒&#x2F;觉醒十&#x2F;觉醒十层)(面板&#x2F;配置&#x2F;阵容)】 如：【觉醒面板】</p>
+</li>
+<li><p>【(日轮&#x2F;日轮之陨&#x2F;卑弥呼)(面板&#x2F;配置&#x2F;阵容)】 如：【卑弥呼配置】</p>
+</li>
+<li><p>【(业原火&#x2F;痴)(面板&#x2F;配置&#x2F;阵容)】 如：【业原火阵容】</p>
+</li>
+<li><p>【(御灵&#x2F;御灵三层)(面板&#x2F;配置&#x2F;阵容)】 如：【御灵面板】</p>
+</li>
+<li><p>【(真蛇&#x2F;真八岐大蛇)(面板&#x2F;配置&#x2F;阵容)】 如：【真蛇面板】</p>
+</li>
+<li><p>【斗技阵容】【永生之海阵容】</p>
+</li>
+<li><p>【神秘图案】 返回当月的神秘图案。（图片对应默认召唤屋）</p>
+</li>
+<li><p>其余的相关组合如下：<br>【(阴阳师)藏宝阁】 【阴阳师妖怪屋(扑克牌)兑换码】【(阴阳师)桌面版】【桌面版多开&#x2F;多开桌面版】【御魂检出器】【御魂放大镜】【御魂导出器】【御魂hub】【痒痒熊】【(阴阳师)扑克牌兑换码】</p>
+</li>
+<li><p>更多组合有待发现..</p>
+</li>
+</ul>
+</blockquote>
+<p><img src="https://s3.bmp.ovh/imgs/2022/04/20/e45ab8e81ecd2f5f.png"></p>
+<hr>
+<h2 id="功能-三：悬赏封印查询【P】"><a href="#功能-三：悬赏封印查询【P】" class="headerlink" title="功能 三：悬赏封印查询【P】"></a>功能 三：悬赏封印查询【P】</h2><blockquote>
+<p>发送【#悬赏(封印) &lt;式神名或线索名&gt;】时，会回复对应的式神及完成悬赏的推荐地点。</p>
+<p>如：【#悬赏 面具】、【#悬赏封印 桃花妖】</p>
+</blockquote>
+<blockquote>
+<p>由于正式服已经添加了[悬赏指引]功能，本功能保留但不再更新，可以用于查询神秘妖怪。</p>
+</blockquote>
+<p><img src="https://s3.bmp.ovh/imgs/2022/04/20/1b025122102d2cf5.png"></p>
+<hr>
+<h2 id="功能-四：渠道客户端下载"><a href="#功能-四：渠道客户端下载" class="headerlink" title="功能 四：渠道客户端下载"></a>功能 四：渠道客户端下载</h2><blockquote>
+<p>发送【#渠道(下载) &lt;渠道名&gt;】时，会回复对应的渠道服客户端下载地址。</p>
+</blockquote>
+<blockquote>
+<p>支持渠道列表：<br>应用宝&#x2F;360&#x2F;魅族&#x2F;百度&#x2F;小米&#x2F;B站&#x2F;九游&#x2F;网易&#x2F;桌面版&#x2F;4399&#x2F;VIVO&#x2F;当乐&#x2F;PPTV&#x2F;金立&#x2F;华为&#x2F;OPPO</p>
+<ul>
+<li>华为&#x2F;OPPO 渠道客户端只能通过对应应用商店 APP 进行下载，查询下载地址时将回复应用商店的下载链接。</li>
+</ul>
+</blockquote>
+<p><img src="https://s3.bmp.ovh/imgs/2022/04/20/23cdee3862ca49a1.png"></p>
+<hr>
+<h2 id="功能-五：运算（行动条）"><a href="#功能-五：运算（行动条）" class="headerlink" title="功能 五：运算（行动条）"></a>功能 五：运算（行动条）</h2><blockquote>
+<p>发送【#运算】时，会回复具体的使用规则。通过此功能可以计算[白面超车]&#x2F;[化鲸超车]&#x2F;[推拉黑镜]等需要的速度值。部分运算公式来自 NGA。</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">运算公式：</span><br><span class="line">1. 自由运算：((C1*C3-C1*C2+C1)*C8-C1*C4*C7+C1*C4*C6+(C5-C1)*C4+C5*C1*C3-C5*C1*C2+C5*C1)/(C8+C1*C7-C1*C6+C1)</span><br><span class="line">2. 化鲸超车：((C1*0.8+C1)*25+(C2-C1)*25+C2*C1*0.8+C2*C1)/(25+C1)</span><br><span class="line">3. 推拉黑镜：(C1*0.7*(25+C2))/(25+C1*1.4)</span><br><span class="line">4. 面白：(C1*C4+(C3-C1)*C2+C3*C1)/(C4+C1)</span><br><span class="line">5. 面白反查：(C3*C4+C3*C1-C1*C4+C1*C2)/(C2+C1)</span><br><span class="line">6. 面白反查白：(C3*C4-C1*C2)/(C1-C3+C4-C2)</span><br><span class="line">7. 困28荒组单段：14887-C1*0.99*300/706*C2</span><br><span class="line">8. 绘卷：C1*10+C2*20+C3*100</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://s3.bmp.ovh/imgs/2022/04/20/1dd15b0cae63837e.png"></p>
+<hr>
+<h2 id="功能-六：藏宝阁数据查询"><a href="#功能-六：藏宝阁数据查询" class="headerlink" title="功能 六：藏宝阁数据查询"></a>功能 六：藏宝阁数据查询</h2><blockquote>
+<h5 id="本功能无法绕过藏宝阁反爬虫工具，在高频访问下运行不稳定。目前暂不启用账号Moon-1446707203-的该功能，请使用二号机-工具人-3583749142-，同时亦不保证二号机功能的稳定性。"><a href="#本功能无法绕过藏宝阁反爬虫工具，在高频访问下运行不稳定。目前暂不启用账号Moon-1446707203-的该功能，请使用二号机-工具人-3583749142-，同时亦不保证二号机功能的稳定性。" class="headerlink" title="本功能无法绕过藏宝阁反爬虫工具，在高频访问下运行不稳定。目前暂不启用账号Moon(1446707203)的该功能，请使用二号机 工具人(3583749142)，同时亦不保证二号机功能的稳定性。"></a>本功能无法绕过藏宝阁反爬虫工具，在高频访问下运行不稳定。目前暂不启用账号Moon(1446707203)的该功能，请使用二号机 工具人(3583749142)，同时亦不保证二号机功能的稳定性。</h5></blockquote>
+<blockquote>
+<p>发送藏宝阁分享（如：藏宝阁 APP 分享、网页链接）时，进行分析并回复账号大致数据，代码来自【 <a target="_blank" rel="noopener" href="https://bbs.nga.cn/read.php?tid=23005018">号来（作者：@南瓜多糖）</a> 】。</p>
+</blockquote>
+<blockquote>
+<p>数据包含账号基本资源情况、500&#x2F;999天未收录使用情况、典藏皮肤、满速御魂、散件&#x2F;招财&#x2F;火灵&#x2F;蚌精一速等。</p>
+<p>藏宝阁处理的JSON及文本数据会留在服务器，每天3:00清空。</p>
+</blockquote>
+<hr>
+<h2 id="功能-七：斗技排行及数据查询"><a href="#功能-七：斗技排行及数据查询" class="headerlink" title="功能 七：斗技排行及数据查询"></a>功能 七：斗技排行及数据查询</h2><blockquote>
+<h5 id="本功能仅在群聊生效"><a href="#本功能仅在群聊生效" class="headerlink" title="本功能仅在群聊生效"></a>本功能仅在群聊生效</h5></blockquote>
+<blockquote>
+<p>发送【#斗技排行】时，回复对应的斗技排行。数据来自网易大神。<br>使用公式：【**#斗技排行 &lt;服务器名称&#x2F;服务器 ID&gt; &lt;页数&gt;**】。</p>
+</blockquote>
+<blockquote>
+<ul>
+<li>数据来自网易大神，<strong>非实时更新</strong>，约在每个斗技时段结束后半小时内更新。</li>
+<li><strong>当周没有进行过斗技的不会计入排行</strong>。</li>
+<li>仅<strong>各区的前 100 名</strong>可以被查询到，每页 10 人，<strong>页数最多 10 页</strong>。</li>
+<li>服务器名称<strong>请使用标准名称</strong>（区服列表中显示的名称），如：【网易-携手同心】。使用【携手同心】无法被识别。</li>
+<li><strong>未过保护期的服务器无法使用标准名称查询</strong>，请使用服务器 ID 查询。</li>
+<li>一些<strong>特殊服务器无法查询</strong>，如【NeXT 比赛服】【特邀测试服】。</li>
+<li><strong>【全服】请使用【all】代替</strong>。举例：【#斗技排行】 或【#斗技排行 all】返回全服第 1-10 名。</li>
+<li>不填写页数则默认为第 1 页。有填写页数时，必须填入对应的区服。</li>
+</ul>
+</blockquote>
+<p><img src="https://s3.bmp.ovh/imgs/2022/04/20/c8189192336b2203.png"></p>
+<blockquote>
+<p>【斗技数据】可以获取对应玩家的斗技信息。排名以【#斗技排行】的查询结果为准。</p>
+<p>使用公式：【**#斗技数据 &lt;服务器名称&#x2F;服务器 ID&gt; &lt;玩家名称或排名&gt;**】</p>
+</blockquote>
+<blockquote>
+<p>玩家昵称中含有空格的，请使用’-‘代替。</p>
+</blockquote>
+<blockquote>
+<p>斗技信息包括：<br>总胜场、总场次、当前分数<br>最近五场斗技的敌方、总造成伤害、时长、双方阵容<br><strong>可能使用的 BAN 位（对冷门 BAN 选无效.本功能存在BUG，反馈[彼岸花]结果不准确）</strong></p>
+</blockquote>
+<p><img src="https://s3.bmp.ovh/imgs/2022/04/20/cd407c66380d5f36.png"></p>
+<blockquote>
+<p>【场次数据】可以获取对应的场次信息。</p>
+<p>该指令较【#斗技数据】增加了场次的战斗时间、敌方分数及我方式神使用的御魂，同时能查询因5场限制而查询不到的场次。</p>
+<p>使用公式：【#场次数据 &lt;服务器名称&#x2F;服务器 ID&gt; &lt;玩家名称或排名&gt; &lt;场次序号&gt;】</p>
+</blockquote>
+<hr>
+<h2 id="功能-八：NGA新贴监控"><a href="#功能-八：NGA新贴监控" class="headerlink" title="功能 八：NGA新贴监控"></a>功能 八：NGA新贴监控</h2><blockquote>
+<p>监控NGA阴阳师版块的贴子，监控到满足机制的的贴子时自动推送。</p>
+<p>使用方法：<br>私聊中发送【#add &lt;群号&gt;】，即可将对应群聊加入到推送列表中。<br>私聊中发送【#rem &lt;群号&gt;】，即可将对应群聊从推送列表中删除。</p>
+</blockquote>
+<blockquote>
+<p>需要：用户有对应群聊的群主或管理员权限，<br>机器人已加入该群且添加机器人为好友！</p>
+<ul>
+<li>荣誉管理员及超级管理员可以添加任何群聊。</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>检测机制 - 检测精华贴中满足以下条件的贴子：</p>
+<ul>
+<li>“topic_misc”属性为”AQAAAAI”或”AQAAACI”且”subject”属性中不含”皮肤评分”</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="功能-九：NGA搜索"><a href="#功能-九：NGA搜索" class="headerlink" title="功能 九：NGA搜索"></a>功能 九：NGA搜索</h2><blockquote>
+<p>发送【#NGA搜索 &lt;参数&gt;】，即可从NGA阴阳师版块中搜索贴子。<br>使用公式：【#NGA搜索 参数1 参数2 参数3…】</p>
+<p>最少需要有一个参数，否则默认返回主页内容前五条。</p>
+</blockquote>
+<blockquote>
+<p>参数若不为以下列表中的任何一个，则默认为搜索的关键词。</p>
+</blockquote>
+<blockquote>
+<p>参数列表：<br>精华（从精华贴中搜索）<br>内容（同时从贴子标题和内容中搜索，默认是从贴子标题搜索）<br>用户ID123456（搜索用户ID为123456的用户发布的贴子）<br>用户名fline放开那只猫（搜索用户名为fline放开那只猫的用户发布的贴子）<br>页2（搜索结果的第二页，不输入则默认为第一页）<br>%hideauthor（搜索结果中不显示发贴人名字）</p>
+</blockquote>
+<blockquote>
+<p>部分指令式快捷索引：<br>【#公告】 &#x3D; 【#NGA搜索 更新公告 精华 %hideauthor】<br>【#体服公告】 &#x3D; 【#NGA搜索 维护详情 精华 %hideauthor】<br>【麒麟阵容】 &#x3D; 【#NGA搜索 麒麟 精华 %hideauthor】<br>【道馆阵容】 &#x3D; 【#NGA搜索 道馆 精华 %hideauthor】<br>【阴门阵容】 &#x3D; 【#NGA搜索 阴界之门 精华 %hideauthor】<br>【阴界之门阵容】 &#x3D; 【#NGA搜索 阴界之门 精华 %hideauthor】</p>
+</blockquote>
+<blockquote>
+<p>使用范例：<br>【#NGA搜索 用户名fline放开那只猫 公告 精华】<br>【#NGA搜索 公告 用户名fline放开那只猫 精华】<br>以上两条消息的使用效果，实际搜索内容为 用户[fline放开那只猫]所发送的标题中带有[公告]的[精华]贴子。</p>
+</blockquote>
+<p><img src="https://s3.bmp.ovh/imgs/2022/04/20/aa7f259a1fa50534.png"></p>
+<hr>
+<h2 id="功能-零：杂项"><a href="#功能-零：杂项" class="headerlink" title="功能 零：杂项"></a>功能 零：杂项</h2><blockquote>
+<ol>
+<li>【群聊】发送【#状态】，回复机器人的插件版本、框架版本、已运行时间。</li>
+<li>【群聊】发送【我是猪】，会回复’确实’。</li>
+<li>【群聊】有连续 4 条相同的消息由不同的QQ发送时，复读该条消息。（仅计入文本长度低于 100 个字符的消息）</li>
+<li>发送带有【猫图】的消息，会回复一张猫猫头。</li>
+<li>发送带有【狗图】的消息，会回复一张狗狗头。</li>
+<li>【群聊】机器人被@时（@全体成员除外），会从对应图库里抽取一张图片来回复。（每日第一次被@时，会从图库列表中随机选择一个图库，当天该群聊所有@消息的回复全部取自该图库）</li>
+<li>【群聊】每条消息都有0.2%概率触发同第6条的消息。若当天还未生成图库，则随机抽取。</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>如需更换当日图库见”特殊指令列表”，图库目前不定期更新。</p>
+<p>已有图库：<br>fufu、Kemomimi、おいこらしょ、MrQuin<br>kino、豆包拿铁、辣辣、蜜桃、土豆<br>抹茶旦旦、一猫人、一二、小豆泥、三团、泡芙<br>嘉然、神楽七奈、小C-蜜汁姬、樱花狼灵、宇佐紀ノノ<br>爬</p>
+</blockquote>
+<hr>
+<h2 id="特殊指令列表"><a href="#特殊指令列表" class="headerlink" title="特殊指令列表"></a>特殊指令列表</h2><h3 id="概念引入"><a href="#概念引入" class="headerlink" title="概念引入"></a>概念引入</h3><blockquote>
+<ul>
+<li>超级管理员：机器人设定的管理员，拥有全群的管理员权限。</li>
+<li>荣誉管理员：超级管理员设定的管理员，拥有全群的管理员权限（但不具有超级管理员权限）。</li>
+<li>管理员：默认情况下为各群的群主或管理员，可以由管理员添加。</li>
+<li>群聊黑名单：机器人在黑名单中的群只会响应管理员指令。</li>
+<li>个人黑名单：机器人不会响应在黑名单中的QQ号的任何指令。</li>
+<li>关键词信息：群友发送的消息内容为[触发词]时，机器人会回复[回复词]。</li>
+</ul>
+</blockquote>
+<h3 id="管理员指令列表"><a href="#管理员指令列表" class="headerlink" title="管理员指令列表"></a>管理员指令列表</h3><blockquote>
+<ul>
+<li><p>#tb_rem：清除本群当日@抽取的图包。</p>
+</li>
+<li><p>#tb_set [图包名]:设置本群当日图包为指定图包。</p>
+</li>
+<li><p>#blacklist_add：将本群加入群聊黑名单。</p>
+</li>
+<li><p>#blacklist_rem：将本群从群聊黑名单中移除。</p>
+</li>
+<li><p>#admin_set [QQ]：把指定QQ写为本群机器人管理员。</p>
+</li>
+<li><p>#admin_rem [QQ]：把指定QQ从本群机器人管理员列表中删除。</p>
+</li>
+<li><p>#回复定义 [触发词] [回复词]：定义一条关键词信息。<br>—（回复词为’no_reply’开头时将不会以回复的形式回复）<br>—（回复及删除定义时，触发词及回复词中含有的空格请使用|代替，溯源则无需此操作）</p>
+</li>
+<li><p>#删除定义 [触发词]:删除一条关键词信息。</p>
+</li>
+<li><p>[无权限要求]#回复定义溯源 [触发词]：返回触发词的设置人、设置时间。</p>
+</li>
+<li><p>[回复机器人消息时] ***撤回：撤回机器人发送的指定消息。<br>—（即为回复机器人消息时，内容结尾为“撤回”）</p>
+</li>
+<li><p>fms：复述本群在复读记录文本中的最后一条消息。</p>
+</li>
+<li><p>cms：复述本群在撤回记录文本中的最后一条消息。</p>
+</li>
+</ul>
+</blockquote>
+<h3 id="超级管理员指令列表"><a href="#超级管理员指令列表" class="headerlink" title="超级管理员指令列表"></a>超级管理员指令列表</h3><blockquote>
+<ul>
+<li>#tb_rem_all：清除全部群当日@抽取的图库。</li>
+<li>#flashpic [QQ(年+月+日)(时+分)]：获取对应闪照并在群聊中发送。</li>
+<li>#restart：重启框架。</li>
+<li>#cbg_rem：清除【藏宝阁数据查询】本地保存数据。</li>
+<li>#redpack_list：通过HTTP方法获取所有群聊中的RPL。</li>
+<li>#reload：重新加载图包信息。</li>
+<li>#sadmin_set [QQ]:把指定QQ写为机器人超级管理员。</li>
+<li>#sadmin_rem [QQ]:把指定QQ从机器人超级管理员列表中删除。</li>
+<li>#radmin_set [QQ]:把指定QQ写为机器人荣誉管理员。</li>
+<li>#radmin_rem [QQ]:把指定QQ从机器人荣誉管理员列表中删除。</li>
+<li>#全局回复定义 [触发词] [回复词]:定义一条关键词信息[全局]。</li>
+<li>#全局删除定义 [触发词]:删除一条关键词信息[全局]。</li>
+<li>#等效定义 [触发词] [等效于]:</li>
+<li>#删除等效定义 [触发词] [等效于]:</li>
+<li>#seek [首要标签] [次要标签]:进行特定搜索。</li>
+<li>#tb_add [图包名]:新增图包。</li>
+<li>#tb_rem [图包名]:删除图包。</li>
+<li>#tb_edit [图包名]:进入图包新增模式。</li>
+<li>[私聊]#回复 (群) [QQ] [消息内容]：给[QQ]发送消息。</li>
+<li>[私聊]#blacklist_add [QQ]：将[QQ]加入个人黑名单。</li>
+<li>[私聊]#blacklist_rem [QQ]：将[QQ]从个人黑名单中移除。</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="服务器ID-x2F-御魂ID列表"><a href="#服务器ID-x2F-御魂ID列表" class="headerlink" title="服务器ID&#x2F;御魂ID列表"></a>服务器ID&#x2F;御魂ID列表</h2><h3 id="服务器ID列表"><a href="#服务器ID列表" class="headerlink" title="服务器ID列表"></a>服务器ID列表</h3><blockquote>
+<p><strong>特殊服务器</strong><br>特邀测试服 20016 NeXT 比赛服 20013</p>
+</blockquote>
+<blockquote>
+<p><strong>体验服</strong><br>抢先体验服 15049 安卓体验服 15048</p>
+</blockquote>
+<blockquote>
+<p><strong>iOS</strong><br>春之樱 10001 夏之蝉 10002 夜之月 10003 竹之幽 10005<br>云之遏&#x2F;雀之羽&#x2F;兰之雅 10009 松之苍&#x2F;桂之馥&#x2F;莲之净 10006</p>
+</blockquote>
+<blockquote>
+<p><strong>安卓-网易</strong><br>网易-携手同心 10004 网易-结伴同游 15003<br>网易-相伴相随&#x2F;网易-缥缈之旅&#x2F;网易-形影不离 15005<br>网易-情比金坚&#x2F;网易-同心一意&#x2F;网易-相知相依 15007<br>网易-遥远之忆&#x2F;网易-永生之谜&#x2F;网易-心意相通&#x2F;网易-孤高之心 15024<br>网易-风雨同行&#x2F;网易-两情相悦&#x2F;网易-春樱共赏&#x2F;网易-迷之暗影 15029</p>
+</blockquote>
+<blockquote>
+<p><strong>安卓-渠道</strong><br>秋之枫 15001 冬之雪 15002 暮之霞 15006 风之清 15008<br>梅之寒 15009 雨之霁 15014 雀之灵 15023 桃之华 15026<br>菊之逸 15028 樱之华 15031</p>
+</blockquote>
+<blockquote>
+<p><strong>海外</strong><br>海外加速区 16001 全球国际区 16002</p>
+</blockquote>
+<blockquote>
+<p><strong>联运-B站</strong><br>B站-两心无间&#x2F;B站-亲密无间&#x2F;B站-情深谊长&#x2F;B站-情意相投 15004</p>
+</blockquote>
+<blockquote>
+<p><strong>全平台</strong><br>相伴同行&#x2F;旧友新朋 10014 深情厚谊 10016 相伴长情 10017<br>朝夕相伴 10018 携手共度 10019 举手相庆 10020 欢庆鼓舞 10021<br>追月逐兔 10022 依偎相守 10023 暖风春穗 10024 樱之忆 10025<br>鬼灯的冷彻 10026 初心未改 10027 狐之宴 10028 犬夜叉 10029<br>立秋夕烛 10030 枫之舞 10031 雪之萤 10032 游梦迷蝶 10033<br>桃映春馨 10034 竹风夏意 10035 一叶禅心 10036 夜火离歌 10037<br>晴空日和 10038 瀞灵廷 10039 少时之约 10040 鸣麓逐浪 10041<br>八岐魅影 10042 稚羽萌心 10043 愿予必成 10044 渡世之风 10045<br>百鬼夜行 10046 鬼王之宴 10047 夏之风铃 10048 雅乐之邦 10049<br>四载平安 10050 永生之海 10051 森之王 10052 彼世之花 10053<br>鬼灭之刃 10054 春告之雪 10055 天上天下 10056 唯吾独尊 10057<br>旧时童梦 10058 轮回之庭 10059</p>
+</blockquote>
+<h3 id="御魂-ID-列表"><a href="#御魂-ID-列表" class="headerlink" title="御魂 ID 列表"></a>御魂 ID 列表</h3><blockquote>
+<p><strong>生命加成系列</strong><br>地藏像 300003 涅磐之火 300006 被服 300009 镜姬 300014<br>钟灵 300015 薙魂 300021 树妖 300024</p>
+</blockquote>
+<blockquote>
+<p><strong>攻击加成系列</strong><br>蝠翼 300004 轮入道 300012 狰 300018 心眼 300022<br>鸣屋 300020 阴摩罗 300027 狂骨 300048</p>
+</blockquote>
+<blockquote>
+<p><strong>防御加成系列</strong><br>雪幽魂 300002 招财猫 300010 反枕 300011 日女巳时 300013<br>木魅 300023 珍珠 300032 魅妖 300035</p>
+</blockquote>
+<blockquote>
+<p><strong>暴击系列</strong><br>三味 300007 网切 300026 伤魂鸟 300029 破势 300030<br>镇墓兽 300031 针女 300036</p>
+</blockquote>
+<blockquote>
+<p><strong>效果命中系列</strong><br>火灵 300019 蚌精 300034</p>
+</blockquote>
+<blockquote>
+<p><strong>效果抵抗系列</strong><br>魍魉之匣 300008 骰子鬼 300033 返魂香 300039 幽谷响 300049</p>
+</blockquote>
+<blockquote>
+<p><strong>逢魔首领系列</strong><br>土蜘蛛 300050 胧车 300051 荒骷髅 300052<br>地震鲶 300053 蜃气楼 300054 鬼灵歌伎 300077</p>
+</blockquote>
+<blockquote>
+<p><strong>日轮之陨系列</strong><br>飞缘魔 300073 兵主部 300074 青女房 300075 涂佛 300076</p>
+</blockquote>
+<blockquote>
+<p><strong>永生之海系列</strong><br>共潜 300080 恶楼 300081 贝吹坊 300082 海月火玉 300083 出世螺 300084</p>
+</blockquote>
+<hr>
+<h2 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h2><p>以下群聊进行机器人初版功能测试（顺序不分先后）</p>
+<blockquote>
+<ul>
+<li>白衣茶舍(826945415) 告白气球(607592599)</li>
+<li>曼舞轻歌(771947305) 无尽的梦(962308190)</li>
+<li>夜神月(105021201) 古道茶亭(550158429)</li>
+<li>七曜(636435089) 花开荼蘼(600780804)</li>
+<li>北门寮(618790019) 冥生殿(579447516)</li>
+<li>花墨阁(205219361) 临江踏月(552779623)</li>
+<li>望月观澜(598346675) 脱线森林(557450358)</li>
+<li>时雨苍燕(177122415) 香格里拉(727445677)</li>
+<li>|无忧阁|(558013148) 陌上花开兮(348488578)</li>
+<li>晓南风（南花楼）(883806829) 若你在隔岸(567580807)</li>
+<li>逐云之巅(450799824) 夜行秋名山(243428965)</li>
+<li>念薇(478579389) 临港四校大(592505390)</li>
+<li>月半小夜曲（一树梨花）(991524125)</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="参考数据-x2F-联系方式-x2F-捐赠渠道"><a href="#参考数据-x2F-联系方式-x2F-捐赠渠道" class="headerlink" title="参考数据&#x2F;联系方式&#x2F;捐赠渠道"></a>参考数据&#x2F;联系方式&#x2F;捐赠渠道</h2><blockquote>
+<h3 id="参考数据-（感谢大佬们的付出）"><a href="#参考数据-（感谢大佬们的付出）" class="headerlink" title="参考数据 （感谢大佬们的付出）"></a><strong>参考数据</strong> （感谢大佬们的付出）</h3><ol>
+<li><a target="_blank" rel="noopener" href="http://yys.nga.cn/">NGA论坛-阴阳师板块</a></li>
+<li><a target="_blank" rel="noopener" href="https://s.166.net/config/bbs_yys/server.json">游戏服务器信息接口</a> | <a target="_blank" rel="noopener" href="https://s.166.net/config/bbs_yys/yuhun.json">游戏御魂信息接口</a> | <a target="_blank" rel="noopener" href="https://s.166.net/config/bbs_yys/shishen.json">游戏式神信息接口</a></li>
+<li><a target="_blank" rel="noopener" href="http://ds.163.com/2019/yys/dj-rank/">网易大神-斗技排行榜</a>(<a target="_blank" rel="noopener" href="https://bdapi.gameyw.netease.com/ky59/v1/g37_charts/topuids">接口</a>) | <a target="_blank" rel="noopener" href="https://bdapi.gameyw.netease.com/ky59/v1/g37_charts/oneuid?server=all&roleid=">网易大神-个人斗技数据信息接口</a></li>
+<li><a target="_blank" rel="noopener" href="https://bbs.nga.cn/read.php?tid=23005018">号来：藏宝阁辅助看号工具</a></li>
+<li><a target="_blank" rel="noopener" href="https://bbs.nga.cn/read.php?tid=22121529">逢魔密信题库（第一至四次更新） By fline放开那只猫</a><br><a target="_blank" rel="noopener" href="https://bbs.nga.cn/read.php?tid=27091575">逢魔密信题库（第五次更新） By 檐雨晚初霁</a></li>
+</ol>
+<hr>
+<p>机器人账号由 <a target="_blank" rel="noopener" href="https://xiaolz.cn/">小栗子框架</a> 支持，服务器托管于 <a target="_blank" rel="noopener" href="https://cloud.tencent.com/">腾讯云</a> 。</p>
+</blockquote>
+<blockquote>
+<h3 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a><strong>联系方式</strong></h3><ul>
+<li>不定时不定群冒泡（随缘回复）</li>
+<li>邮箱：<a href="mailto:&#110;&#101;&#x78;&#102;&#111;&#117;&#x6e;&#64;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#110;&#101;&#x78;&#102;&#111;&#117;&#x6e;&#64;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;</a>（随缘回复）</li>
+<li>机器人账号空间说说评论区（随缘回复）</li>
+<li>游戏内：雨之霁 #2600109（应该会回）</li>
+<li>捐赠（一定看备注）</li>
+</ul>
+</blockquote>
+<blockquote>
+<h3 id="要饭（捐赠）"><a href="#要饭（捐赠）" class="headerlink" title="要饭（捐赠）"></a>要饭（捐赠）</h3><p>三分钟没吃饭了，救救孩子叭！</p>
+<p><img src="https://s3.bmp.ovh/imgs/2022/04/20/c0129c7d51fe3078.jpg"><img src="https://s3.bmp.ovh/imgs/2022/04/20/a79bcbd5c78fc8ae.jpg"><img src="https://s3.bmp.ovh/imgs/2022/04/20/8f89d98dfb5c7717.jpg"></p>
+</blockquote>
+<hr>
+<h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><p>已知BUG：</p>
+<ul>
+<li>【斗技数据】’预计BAN位’功能无法正常排除式神[彼岸花]。</li>
+</ul>
+<hr>
+<p>2022.4.20-21</p>
+<blockquote>
+<p>1.更换短网址及使用说明平台。</p>
+</blockquote>
+<p>2022.2.5</p>
+<blockquote>
+<p>1.【藏宝阁数据查询】功能同步最新典藏皮肤。<br>2.【藏宝阁数据查询】功能在账号无’高亮标签’时不再显示’高亮标签’。<br>2021.11.23<br>1.为【藏宝阁数据查询】功能增加了大天狗典藏皮肤。<br>2.优化了【NGA新贴监控】功能的运行逻辑。<br>3.【藏宝阁数据查询】使用正则表达式匹配。<br>\4. 更新及删除部分阵容数据。<br>\5. 机器人框架版本更新到4.1.2。<br>\6. 修复【fms】指令。<br>\7. 增加【cms】指令。</p>
+</blockquote>
+<p>2021.10.16（【号来】标准更新）</p>
+<blockquote>
+<p>1.删除了’风姿·神霖羽’的高亮显示，对应增加’风姿·浮生梦’的高亮显示。<br>2.增加了对满速’共潜’御魂的高亮显示。<br>3.删除了’紧那罗’式神的多号机提示，增加’饭笥’式神的多号机显示。<br>4.优化了’500&#x2F;999天未收录使用情况’的显示。<br>5.典藏皮肤收集情况中会显示总典藏皮肤数。<br>6.将联动式神收集情况合并为两期显示。<br>7.优化了’全图鉴&#x2F;真·全图鉴’的显示效果。<br>8.以不同颜色对满速’招财猫&#x2F;火灵&#x2F;蚌精&#x2F;共潜’御魂进行高亮显示。<br>9.修复了’非洲·大阴阳师’中的’大阴阳师’关键字会被高亮匹配的问题。<br>10.以不同颜色对崽战&#x2F;小赛季头像框Highlight进行高亮显示。</p>
+</blockquote>
+<p>2021.9.5</p>
+<blockquote>
+<p>1.修复【藏宝阁数据查询】功能在群聊中无法查询渠道服的问题。<br>2.修复’#add’指令无法正常将群聊加入推送组的问题。<br>3.删除、修改部分过时阵容数据。<br>4.增加了3条【逢魔密信】题库中的题目。</p>
+</blockquote>
+<p>2021.8.8(Beta)</p>
+<blockquote>
+<p>1.删除冗杂代码。<br>2.框架SDK版本更新到3.6.1。<br>3.拆分功能模块。<br>4.删除【藏宝阁数据查询】功能中生成的不必要文件。<br>5.修复【藏宝阁数据查询】在私聊使用时会出现额外回复的问题。<br>6.优化了【斗技数据】’预计BAN位’功能的运行逻辑：预估BAN位时会加入敌方上场过的式神，部分式神能够被正常排除。（感谢 故时月 提出问题）<br>7.【斗技数据】’预计BAN位’功能统计范围修改为当周全部场次。<br>8.优化插件运行的优先级使之更为合理。<br>9.对屏蔽词名单进行删减。<br>10.增加管理员指令’fms’。<br>11.修复【藏宝阁数据查询】对JSON消息不能正常触发的问题。<br>12.删除【御魂】功能。</p>
+</blockquote>
+<p>2021.7.13(24)</p>
+<blockquote>
+<p>1.修复了【狗图】功能部分情况下无法正常触发的问题。<br>2.增加了部分【逢魔密信】题库中的题目。<br>3.修复了【渠道下载】功能部分情况下无法正常触发的问题。<br>4.修复了【逢魔密信】功能部分情况下无法正常触发的问题。<br>5.修复了【悬赏查询】功能部分情况下无法正常触发的问题。<br>6.修复了机器人会复读含有关键词”自响应”&#x2F;“#回复定义”&#x2F;“#删除定义”的消息的问题。<br>7.基于3、4、5项改动，删除了”#渠道下载”&#x2F;“#悬赏封印”指令的判定。（不影响指令效果）<br>（7.16）8.修改了文档中的一处错误。<br>（7.16）9.对服务器ID列表进行了更新。<br>（7.16）10.修正部分【逢魔密信】题目的来源。<br>（7.17）11.调整了【运算】功能的运行逻辑。<br>（7.17）12.修复了【悬赏查询】功能部分情况下无法正常触发的问题。<br>（7.17）13.将【藏宝阁数据查询】功能的等待时间提升至12000ms。<br>（7.17）14.删除了3个无用变量。<br>（8.7）15.机器人框架版本更新到3.6.3。<br>（8.7）16.增加了@回复图包【嘉然】、【kino】。<br>（8.7）17.更新了@回复图包【蜜桃】、【一二】、【泡芙】、【小C-蜜汁姬】。</p>
+</blockquote>
+<p>2021.7.7(23)</p>
+<blockquote>
+<p>1.机器人框架版本更新到3.6.0。<br>2.框架SDK版本更新到3.5.7。<br>3.重新添加【狗图】功能。<br>4.对回复定义增加了溯源机制。<br>5.（早）优化了【藏宝阁数据查询】功能的图片生成逻辑，现在不会再有被占用的情况。</p>
+</blockquote>
+<p>2021.6.18(22)</p>
+<blockquote>
+<p>1.增加了部分【逢魔密信】题库中的题目。<br>2.增加”荣誉管理员”设定。<br>3.调整了管理员验证判定的优先级，现在判定过程更合理了。<br>4.【逢魔密信】功能现可在私聊中使用。<br>5.【渠道下载】功能现可在私聊中使用。<br>6.【NGA搜索】功能现可在私聊中使用。<br>7.【悬赏查询】功能现可在私聊中使用。<br>8.优化部分程序运行逻辑。<br>9.修正群聊中部分”消息格式错误”提示不为回复信息的问题。<br>（6.22）10.修复了群聊【逢魔密信】功能搜索结果超过10条时会既报错又私聊发送搜索结果的问题。<br>（6.22）11.增加了部分【逢魔密信】题库中的题目。</p>
+</blockquote>
+<p>2021.6.8(21)</p>
+<blockquote>
+<p>1.机器人框架版本回退到3.4.1。<br>2.框架SDK版本回退到3.4.1。<br>3.增加了部分【逢魔密信】题库中的题目。<br>4.增加【回复定义】功能。（详见管理员指令列表）<br>5.调整了关键词回复判定的优先级，现在在特殊指令处理后进行判定。<br>6.【NGA新贴监控】功能的检测周期调整为60000ms。<br>7.扩充了屏蔽词汇名单。</p>
+</blockquote>
+<p>2021.5.20-6.6(20)</p>
+<blockquote>
+<p>1.@回复图包【一二】增加了110张图片。<br>2.顺应阿修罗版本，更新【魂土阵容】【困28阵容】【魂十阵容】【业原火阵容】【斗技阵容】数据，删除部分旧版本数据。<br>3.增加了【NGA新贴监控】功能的关键词。（”追加更新”）<br>4.【NGA搜索】功能增加”&amp;hideauthor”变量。<br>5.增加了部分快捷索引。（详见功能9：NGA搜索）<br>6.机器人框架版本更新到3.4.8。<br>7.框架SDK版本更新到3.4.7。</p>
+</blockquote>
+<p>2021.5.16(19)</p>
+<blockquote>
+<p>1.机器人框架版本更新到3.4.1。<br>2.由于腾讯相关改动，【我是猪】指令不会再触发鲜花。<br>3.【藏宝阁数据查询】插件运行窗口不会再在服务器后台显示。<br>4.调整了消息优先级判定，修复了【猫图】指令私聊不触发的问题。<br>5.删除了【传记语音】功能。<br>6.对“机器人无指令触发表情包”的情况增加了说明（见功能0第7条）。<br>7.框架SDK版本更新到3.4.1。<br>8.对【运算】功能所使用的公式进行公开。</p>
+</blockquote>
+<p>2021.5.4(18)</p>
+<blockquote>
+<p>1.机器人框架版本更新到3.3.4。<br>2.修正【场次数据】描述文本错误。<br>3.增加管理员指令’#tb_set’。<br>4.更新管理员体系（详见管理员指令列表）。<br>5.（5.10）机器人框架版本更新到3.3.8。<br>6.（5.10）增加了一条管理员指令。<br>7.（5.8）为【藏宝阁数据查询】功能增加了追月神典藏皮肤。</p>
+</blockquote>
+<p>2021.5.2(17)</p>
+<blockquote>
+<p>1.机器人框架版本更新到3.3.3。<br>2.【藏宝阁数据查询】功能支持渠道服藏宝阁。<br>3.增加了’#场次数据’指令（即为对’#斗技数据’指令的拓展）。<br>4.更换部分【渠道客户端下载地址】为短网址，同时将部分客户端下载地址更换为直链。<br>5.@回复图包【おいこらしょ】增加了18张图片。<br>6.’功能’菜单采用看云记录。<br>7.删除了机器人不复读文字口令红包的相关代码（会复读也无法领取红包的）。</p>
+</blockquote>
+<blockquote>
+<p>2021.4.15-23(16)<br>1.机器人框架版本更新到3.3.1。* 由于腾讯加入数据合法性检查，自定义群聊等级&#x2F;群聊标识&#x2F;群头衔失效。；<br>2.更新【御灵阵容】数据，加入帝释天版本的3个主要阵容；更新【永生之海阵容】。<br>3.删除部分过时【魂十阵容】【魂土阵容】【日轮阵容】【真蛇阵容】【御灵阵容】数据。<br><a target="_blank" rel="noopener" href="http://4.全面更换短网址为awsll.cn/">4.全面更换短网址为awsll.cn</a>，在使用过程中遇到问题还请通过本页面最上方问卷反馈。* 旧的短网址会出现广告且在部分地区无法访问，极度影响使用体验，目前已全部弃用并删除之前生成的mrw.so短网址。<br>5.修改了【NGA新贴监控】功能的关键词。（”新皮肤”-&gt;”皮肤”）<br>6.框架SDK版本更新到3.3.1。<br>7.增加了@回复图包【抹茶旦旦】，同时对图包重新进行了整合。</p>
+</blockquote>
+<blockquote>
+<p>2021.4.13(15)<br>1.增加个人黑名单机制。（机器人不会处理黑名单用户的任何消息）<br>2.增加了【NGA新贴监控】功能的关键词。（”预览”）<br>3.机器人框架版本更新到3.3.0。</p>
+</blockquote>
+<blockquote>
+<p>2021.4.12(14.5)<br>1.优化了【藏宝阁数据查询】功能返回的消息格式。<br>2.删除部分Ex类群消息（会导致一些不影响体验的BUG）。<br>3.增加群关键词【#公告】【#体服公告】，等效于【#NGA搜索 更新公告 精华】【#NGA搜索 维护详情 精华】。<br>4.删除初次私聊回复的文本中带有的’.’字符（会导致手机端无法正常查看使用说明页面）。<br>5.修改了【斗技数据】功能的错误返回文本。</p>
+</blockquote>
+<blockquote>
+<p>2021.4.9(14)<br>1.优化了【复读】功能逻辑，现在会复读有多行文字的消息。<br>2.优化了【复读】功能对文字口令红包的解析屏蔽逻辑。<br>3.增加群关键词【#御魂 &lt;御魂名称或御魂ID&gt;】。<br>4.后台：每天凌晨3点重新写入区服、御魂及式神信息，清除【藏宝阁数据查询】【复读】的残余数据。<br>5.扩充了私聊屏蔽关键词库。<br>6.增加了@回复图包【おいこらしょ】。<br>7.@回复图包增加了部分图片。<br>8.（4.7）【藏宝阁数据查询】功能在账号没有藏宝阁高亮标签时不会显示此行。<br>9.（4.7）【藏宝阁数据查询】功能会显示账号上的辉夜姬典藏皮肤【胧月】。<br>10.（4.7）对【藏宝阁数据查询】功能中关键多号机进行了少量改动。</p>
+</blockquote>
+<blockquote>
+<p>2021.4.3(13)<br>1.优化了大量回复文本数据（各项关键词、渠道客户端等）。<br><a target="_blank" rel="noopener" href="http://2.短网址统一使用mrw.so/">2.短网址统一使用mrw.so</a>（有出现广告问题还请反馈）。<br>3.更新【斗技阵容】数据。<br>4.机器人框架版本更新到3.2.7。<br>5.优化了【探索面板】返回图片的排版，压缩图片体积。<br>6.修复了其它无关功能导致部分情况下反应有所延迟的问题。<br>7.修改了机器人的消息标识，现在它看起来更靓仔了。</p>
+</blockquote>
+<blockquote>
+<p>2021.3.30<br>1.修复了【斗技数据】功能对于3000分以下的玩家也显示’预计ban位’的问题。<br>(3.31注释：真正修复了该bug，同时不再对3240分的玩家进行ban位预估）<br>2.修复了【斗技数据】功能对秒退局会进行空白解析的问题。<br>3.新增无权限群指令【#状态】。<br>4.不再可以通过群临时消息使用机器人的功能（关键词回复除外）。<br>5.优化了【斗技数据】’预计ban位’功能的运行逻辑。<br>（3.31注释：再次优化，对筛选过程中3000分以下的局进行过滤）<br>6.增加功能：【NGA搜索】。</p>
+</blockquote>
+<blockquote>
+<p>2021.3.26<br>0.(2021.3.28常规更新)机器人框架版本更新到3.2.4。<br>1.【斗技数据】功能现在支持以昵称查询时查询昵称中带有空格的玩家，具体规则见功能详情。<br>2.修复了【斗技数据】功能中提供参数错误时会导致返回大量空白的问题。<br>3.修正了【斗技数据】功能中一处文本的描述错误。</p>
+</blockquote>
+<blockquote>
+<p>2021.3.24<br>1.服务器供应商更换为腾讯云。<br>2.修复了【斗技数据】功能在被查询玩家当周斗技场次低于5场时不会显示的问题。<br>3.【斗技数据】功能现支持以玩家昵称查询。<br>4.替换了【斗技数据】功能的消息排版，增加了一个错误提示。</p>
+</blockquote>
+<blockquote>
+<p>2021.3.20<br>1.修复了新的消息解析机制导致【悬赏封印】功能使用’#悬赏封印’无法正常解析的问题。<br>2.机器人框架版本更新到3.2.3。</p>
+</blockquote>
+<blockquote>
+<p>2021.3.18<br>1.修复了【藏宝阁数据查询】功能不解析网易藏宝阁APP分享出的链接问题。<br>2.优化了消息解析机制，会对带有’&lt;’、’&gt;’、’【’、’】’、’＃’等字符的消息进行简单处理。<br>3.优化了消息解析机制，会对带有’ ‘字符的消息进行简单处理，使用部分功能而未填入参数时会提示。如：【#add12345678】会收到提示，正确用法为【#add 12345678】。</p>
+</blockquote>
+<blockquote>
+<p>2021.3.16<br>1.对【NGA新贴监控】功能进行优化，现在支持使用者将群添加到推送列表。具体信息见功能介绍。</p>
+</blockquote>
+<blockquote>
+<p>2021.3.15<br>1.增加了【NGA新贴监控】功能的关键词。（”特邀测试服[@fline放开那只猫&#x2F;棣喵华]”）</p>
+</blockquote>
+<blockquote>
+<p>2021.3.14<br>1.机器人框架版本更新到3.2.0。<br>2.增加功能：【NGA新贴监控】。</p>
+</blockquote>
+<blockquote>
+<p>2021.3.13<br>框架的验证机制崩了一下午。<br>1.机器人不再复读文字口令红包的口令。<br>2.优化了消息处理机制，不会再有一条消息产生多次回复的情况。<br>3.【运算】功能支持在好友消息里使用。<br>4.优化了【藏宝阁数据查询】功能的消息解析逻辑，现在支持各种XML消息分享出来的藏宝阁链接。（如：QQ浏览器&#x2F;UC浏览器）</p>
+</blockquote>
+<blockquote>
+<p>2021.3.11<br>1.修复了框架版本更新导致的XML、JSON消息解析的问题（涉及手机端藏宝阁数据导出）。</p>
+</blockquote>
+<blockquote>
+<p>2021.3.9<br>1.机器人框架版本更新到 3.1.8。<br>2.更换发送群消息的Api，加入部分自定义群头衔。<br>3.修正了‘#运算 自由运算’介绍文本指令描述的错误。</p>
+</blockquote>
+<blockquote>
+<p>2021.3.6<br>1.’功能’菜单使用石墨文档记录。<br>2.机器人框架版本更新到 3.1.6。<br>3.修复了部分功能使用时群黑名单不生效的问题。<br>4.更新【斗技阵容】数据。</p>
+</blockquote>
+<hr>
+<p><del>到底了..</del></p>
+
+                
+            </div>
+            <hr/>
+
+            
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2022/04/20/yysbot/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="【阴阳师/综合】Moon Bot使用指南">
+                        
+                        <span class="card-title">【阴阳师/综合】Moon Bot使用指南</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            关于一些机器人的使用问题。
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-04-20
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/BotHelp/" class="post-category">
+                                    BotHelp
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2022/04/19/cnyd/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="福建移动 活动整理">
+                        
+                        <span class="card-title">福建移动 活动整理</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            梦想是用运营商的网络，还要让运营商倒贴。
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-04-19
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E8%BF%90%E8%90%A5%E5%95%86/" class="post-category">
+                                    运营商
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+
+    <div class="container row center-align"
+         style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            &nbsp;Powered by&nbsp;檐雨晚初霁
+            <br>
+            
+                &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                        class="white-color">11.9k</span>
+            
+            
+            
+                
+            
+            
+                <span id="busuanzi_container_site_pv">
+                &nbsp;|&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;
+                    <span id="busuanzi_value_site_pv" class="white-color"></span>
+            </span>
+            
+            
+                <span id="busuanzi_container_site_uv">
+                &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;
+                    <span id="busuanzi_value_site_uv" class="white-color"></span>
+            </span>
+            
+            <br>
+
+            <!-- 运行天数提醒. -->
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    
+
+    
+
+    <!-- 雪花特效 -->
+    
+
+    <!-- 鼠标星星特效 -->
+    
+
+    
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    <!--腾讯兔小巢-->
+    
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
