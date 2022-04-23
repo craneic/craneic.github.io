@@ -331,7 +331,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    297
+                    465
                 </div>
                 
 
@@ -351,7 +351,7 @@
                 <h2 id="须知（必看）"><a href="#须知（必看）" class="headerlink" title="须知（必看）"></a>须知（必看）</h2><blockquote>
 <ul>
 <li>服务器端只会保存登录后获取到的UserID数据，不会保存账号密码，在绑定账号后<strong>可以随意修改密码</strong>。</li>
-<li><strong>指令中的’[]’字符不需要输入</strong>。如我需要绑定的账号为wangxiaoming，密码为Aa123456，则需要发送的消息为：.aq.login wangxiaoming Aa123456；而不是.aq.login [wangxiaoming] [Aa123456]，错误添加字符会导致登录失败。</li>
+<li><strong>指令中的[]字符不需要输入</strong>。如我需要绑定的账号为wangxiaoming，密码为Aa123456，则需要发送的消息为：.aq.login wangxiaoming Aa123456；而不是.aq.login [wangxiaoming] [Aa123456]，错误添加字符会导致登录失败。</li>
 <li>本程序实际上不会提交任何问卷数据，使用即表示您承担可能的风险。</li>
 <li>仅支持完成活动专题，暂不支持完成安全课时。</li>
 </ul>
@@ -361,7 +361,7 @@
 <li>.aq.login [账号] [密码]：绑定账号</li>
 <li>.aq.remove：取消绑定账号</li>
 <li>.aq.mark [活动ID] [Step]：访问活动API</li>
-<li>活动ID根据专题活动的不同而不同，管理员跟随活动进度而批量完成活动，同时会将活动ID发送到相关群聊中。</li>
+<li>活动ID根据专题活动的不同而不同，管理员跟随活动进度而批量完成活动，同时会将活动ID发送到相关群聊中，自己也可以获取活动ID。</li>
 <li>Step指完成步骤，如常规专题活动中Step为1&#x3D;看视频签到，Step为2&#x3D;完成问卷。</li>
 </ul>
 </blockquote>
@@ -369,6 +369,30 @@
 <ul>
 <li>.aq.admin.mark [活动ID] [Step]： 为所有用户访问活动API</li>
 <li>.aq.admin.login：批量-混合绑定账号（p_account.ini [account])</li>
+</ul>
+</blockquote>
+<h2 id="活动ID的获取方式"><a href="#活动ID的获取方式" class="headerlink" title="活动ID的获取方式"></a>活动ID的获取方式</h2><blockquote>
+<h3 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h3><ul>
+<li>在每次新活动更新后管理员跟随进度在部分群中发送。</li>
+</ul>
+<h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3><ul>
+<li><p>进入对应活动页面后，</p>
+</li>
+<li><ul>
+<li>手机端：找到浏览器类似查看网页源代码的功能。</li>
+<li>电脑端：点击F12按键，选择Elements或类似意思选项。</li>
+</ul>
+</li>
+<li><p>收缩网页源代码。（默认收缩）</p>
+</li>
+<li><p>搜索data-specialid，对应的值即为活动ID。如：729</p>
+</li>
+</ul>
+<h3 id="方法三"><a href="#方法三" class="headerlink" title="方法三"></a>方法三</h3><ul>
+<li><p>根据上次活动的ID不断进行向下访问直到签到成功。</p>
+</li>
+<li><p>如：上次活动ID为729，就尝试访问730、731、732直到提示签到成功。</p>
+</li>
 </ul>
 </blockquote>
 
@@ -628,7 +652,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">13k</span>
+                        class="white-color">13.2k</span>
             
             
             
