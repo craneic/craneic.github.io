@@ -331,7 +331,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    521
+                    524
                 </div>
                 
 
@@ -348,27 +348,27 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="2022-06-18-决定采用频道机器人形式。频道入口二维码见【好分数模块】文章。但是我发现模块的源码找不到了，所以只能重写，可能要一定时间。"><a href="#2022-06-18-决定采用频道机器人形式。频道入口二维码见【好分数模块】文章。但是我发现模块的源码找不到了，所以只能重写，可能要一定时间。" class="headerlink" title="2022-06-18 决定采用频道机器人形式。频道入口二维码见【好分数模块】文章。但是我发现模块的源码找不到了，所以只能重写，可能要一定时间。"></a>2022-06-18 决定采用频道机器人形式。频道入口二维码见【好分数模块】文章。但是我发现模块的源码找不到了，所以只能重写，可能要一定时间。</h1><h2 id="须知（必看）"><a href="#须知（必看）" class="headerlink" title="须知（必看）"></a>须知（必看）</h2><blockquote>
+                <h1 id="2022-06-18-已更换为频道机器人形式。频道入口二维码见【好分数模块】文章。使用指令有变动，请注意。"><a href="#2022-06-18-已更换为频道机器人形式。频道入口二维码见【好分数模块】文章。使用指令有变动，请注意。" class="headerlink" title="2022-06-18 已更换为频道机器人形式。频道入口二维码见【好分数模块】文章。使用指令有变动，请注意。"></a>2022-06-18 已更换为频道机器人形式。频道入口二维码见【好分数模块】文章。使用指令有变动，请注意。</h1><h2 id="须知（必看）"><a href="#须知（必看）" class="headerlink" title="须知（必看）"></a>须知（必看）</h2><blockquote>
 <ul>
 <li>服务器端只会保存登录后获取到的UserID数据，不会保存账号密码，在绑定账号后<strong>可以随意修改密码</strong>。</li>
-<li><strong>指令中的[]字符不需要输入</strong>。如我需要绑定的账号为wangxiaoming，密码为Aa123456，则需要发送的消息为：.aq.login wangxiaoming Aa123456；而不是.aq.login [wangxiaoming] [Aa123456]，错误添加字符会导致登录失败。</li>
+<li><strong>指令中的[]字符不需要输入</strong>。如我需要绑定的账号为wangxiaoming，密码为Aa123456，则需要发送的消息为：&#x2F;绑定账号 wangxiaoming Aa123456；而不是.aq.login [wangxiaoming] [Aa123456]，错误添加字符会导致登录失败。</li>
 <li>本程序实际上不会提交任何问卷数据，使用即表示您承担可能的风险。</li>
 <li>仅支持完成活动专题，暂不支持完成安全课时。</li>
 </ul>
 </blockquote>
 <h2 id="指令列表"><a href="#指令列表" class="headerlink" title="指令列表"></a><strong>指令列表</strong></h2><blockquote>
 <ul>
-<li>.aq.login [账号] [密码]：绑定账号</li>
-<li>.aq.remove：取消绑定账号</li>
-<li>.aq.mark [活动ID] [Step]：访问活动API</li>
+<li>&#x2F;绑定账号 [账号] [密码]：绑定账号</li>
+<li>&#x2F;取消绑定：取消绑定账号</li>
+<li>&#x2F;完成活动 [活动ID] [Step]：访问活动API</li>
 <li>活动ID根据专题活动的不同而不同，管理员跟随活动进度而批量完成活动，同时会将活动ID发送到相关群聊中，自己也可以获取活动ID。</li>
 <li>Step指完成步骤，如常规专题活动中Step为1&#x3D;看视频签到，Step为2&#x3D;完成问卷。</li>
 </ul>
 </blockquote>
 <h3 id="指令列表（管理员）"><a href="#指令列表（管理员）" class="headerlink" title="指令列表（管理员）"></a><strong>指令列表（管理员）</strong></h3><blockquote>
 <ul>
-<li>.aq.admin.mark [活动ID] [Step]： 为所有用户访问活动API</li>
-<li>.aq.admin.login：批量-混合绑定账号（p_account.ini [account])</li>
+<li>&#x2F;批量完成活动 [活动ID] [Step]： 为所有用户访问活动API</li>
+<li>&#x2F;批量绑定账号：批量-混合绑定账号（p_account.ini [account])</li>
 </ul>
 </blockquote>
 <h2 id="活动ID的获取方式"><a href="#活动ID的获取方式" class="headerlink" title="活动ID的获取方式"></a>活动ID的获取方式</h2><blockquote>
