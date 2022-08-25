@@ -331,7 +331,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.3k
+                    2.9k
                 </div>
                 
 
@@ -375,6 +375,12 @@
 <li><p>频道管理员【小智管家】仅作全员禁言（每天0:30-6:00频道内全员禁言）及新人赋身份组（有效期1天，可以阅读迎新频道）使用，不开启打卡、排名、游戏等功能。请不要与【小智管家】在频道或私信内进行任何互动。</p>
 </li>
 <li><p>频道不同身份组的权限注释</p>
+<p>【至高的管理员】：拥有所有子频道的查看及发言权限，拥有查看频道数据、加精、撤回、置顶、管理子频道、管理身份组、禁言、移除、拉黑权限。</p>
+<p>【真正的管理员】：拥有所有子频道的查看权限及所有推送及管理员子频道的发言权限，拥有加精、撤回、置顶、禁言、移除、拉黑权限。</p>
+<p>【猫猫观察者】：拥有所有推送子频道的查看权限及推送主频道的发言权限，拥有查看频道数据权限。</p>
+<p>【靓仔猫猫】：拥有推送主频道的查看权限。</p>
+<p>【猫猫】：绑定用户自动获得，拥有推送子频道(A)的查看权限。</p>
+<p>【猫emoji】：新加入频道用户自动获得，拥有迎新子频道的查看权限，有效期1天。</p>
 </li>
 </ol>
 </blockquote>
@@ -383,8 +389,8 @@
 <p>目前主要功能：</p>
 <ul>
 <li><p>副本日志实时推送（仅部分大区）</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">在Bot处绑定洛克王国账号后会自动获得对应子频道的查看权限。</span><br></pre></td></tr></table></figure>
 </li>
-<li></li>
 <li><p>副本相关数据、最终评分及RANK值查询</p>
 </li>
 <li><p>副本实时评分查询（即使在评分过程中，仅部分大区）</p>
@@ -407,9 +413,10 @@
 <li><p>输入【&#x2F;科目详情 [子副本ID]】，获取副本下的子副本数据。</p>
 </li>
 </ul>
-<p>[^示例]: &#x2F;科目详情 1234567-1234<br><a href="%E5%9C%A8Bot%E5%A4%84%E7%BB%91%E5%AE%9A%E6%B4%9B%E5%85%8B%E7%8E%8B%E5%9B%BD%E8%B4%A6%E5%8F%B7%E5%90%8E%E4%BC%9A%E8%87%AA%E5%8A%A8%E8%8E%B7%E5%BE%97%E5%AF%B9%E5%BA%94%E5%AD%90%E9%A2%91%E9%81%93%E7%9A%84%E6%9F%A5%E7%9C%8B%E6%9D%83%E9%99%90%E3%80%82">^备注</a>: 获取子副本数据需要先获取对应副本数据。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">示例：/科目详情 1234567-1234</span><br><span class="line">备注：获取子副本数据需要先获取对应副本数据。</span><br></pre></td></tr></table></figure>
+
 <ul>
-<li><p>图片示例：<br><img src="https://pic.jitudisk.com/public/2022/08/25/773020e218d0e.png"></p>
+<li><p>图片示例<br><img src="https://pic.jitudisk.com/public/2022/08/25/773020e218d0e.png"></p>
 <p><img src="https://pic.jitudisk.com/public/2022/08/25/86e62cce89603.png"></p>
 </li>
 </ul>
@@ -422,15 +429,17 @@
 <li><p>&#x2F;取消绑定：取消账号绑定。</p>
 </li>
 <li><p>&#x2F;查询：查询账号下可获取到的所有副本。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">受洛克王国新策略限制，普通用户仅可获取最近90天参与的副本。频道内有绕过本策略的方案（仅支持部分副本），请关注【公告】子频道。</span><br></pre></td></tr></table></figure>
 </li>
-<li></li>
 <li><p>&#x2F;考试详情 [副本ID]：查询副本数据及额外信息。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">额外信息拥有两种查询方案。输入&quot;/切换模式&quot;可以进行更换。</span><br><span class="line">1.超级模式（默认）：支持查询国服所有大区数据（部分小范围合作副本除外）。</span><br><span class="line">2.原生模式：支持查询部分大区数据（包括合作副本，受洛克王国新策略限制，部分大区仅支持RANK值在前1/3的洛克，不稳定）</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>&#x2F;科目详情 [子副本ID]：查询子副本数据及各分项情况。</p>
 </li>
 <li><p>&#x2F;答题详情 [子副本ID]：查询子副本扣分项情况。</p>
 </li>
 <li><p>&#x2F;答题卡 [子副本ID]：查询子副本题面数据。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">以上三条指令都需要先查询对应副本的数据。</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>&#x2F;隐藏标记：隐藏查询副本数据显示的【优\劣】。</p>
 </li>
@@ -438,14 +447,16 @@
 <p>以上功能中「详情」二字皆可替换为「内容」「信息」「数据」。</p>
 <hr>
 <p>以下功能仅在部分特定时期&#x2F;副本开放。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">此部分功能需要输入的子副本ID与上一部分功能不同，</span><br><span class="line">以【暮色森林/不周山/桃花源/无量空处】子频道发布为准。</span><br></pre></td></tr></table></figure>
+
 <ul>
 <li><p>&#x2F;阅中进度 [子副本ID]：查询子副本的实时评分、评分进度及uploadKey。</p>
 </li>
 <li><p>&#x2F;题块详情 [子副本ID] [uploadKey]: 查询子副本各评分版块的实时评分情况。</p>
-<p>[^示例]: &#x2F;题块详情 1234567 12345-67890-123-1</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">本条指令不使用正则表达式匹配，请确保你输入的指令格式正确，尤其注意空格。</span><br><span class="line">示例：/题块详情 1234567 12345-67890-123-1</span><br></pre></td></tr></table></figure>
 </li>
 <li><p><del>&#x2F;阅卷进度 [科目ID]: 查询科目阅卷总进度。</del></p>
-</li>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">由于部分原因，本条指令暂不对用户开放。</span><br></pre></td></tr></table></figure></li>
 </ul>
 </blockquote>
 <h2 id="【额外信息】支持大区列表"><a href="#【额外信息】支持大区列表" class="headerlink" title="【额外信息】支持大区列表"></a>【额外信息】支持大区列表</h2><blockquote>
@@ -487,7 +498,7 @@
 <hr>
 <h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><blockquote>
 <p>洛克王国Bot 20220825Ch（累积）</p>
-<p>1.将Bot迁移至频道，使用 NectarBot 架构。<br>2.修复无法正常获取【题面】问题。<br>3.修复无法正常获取【扣分项&#x2F;各分项】问题。<br>4.支持额外信息获取模式：超级模式。<br>5.修复在原生模式下，凝德服-第M大区的洛克无法获取额外信息的问题。<br>6.支持【&#x2F;换绑】【&#x2F;查绑】（仅 至高的管理员 身份组成员可用）。<br>7.优化【副本数据监控】【副本实时数据获取】类的实现方案。<br>8.支持【副本数据监控】检测到新副本自动开启监控&#x2F;副本结束自动关闭监控。<br>9.频道启用【邀请码】机制。</p>
+<p>1.将Bot迁移至频道，使用 NectarBot 架构。<br>2.修复无法正常获取【题面】问题。<br>3.修复无法正常获取【扣分项&#x2F;各分项】问题。<br>4.支持额外信息获取模式：超级模式。<br>5.修复在原生模式下，凝德服-第M大区的洛克无法获取额外信息的问题。<br>6.支持【&#x2F;换绑】【&#x2F;查绑】（仅 至高的管理员 身份组成员可用）。<br>7.优化【副本数据监控】【副本实时数据获取】类的实现方案。<br>8.支持【副本数据监控】检测到新副本自动开启监控&#x2F;副本结束自动关闭监控。<br>9.频道启用【邀请码】【黑名单】机制。</p>
 </blockquote>
 <hr>
 <p>菩提本无树，何处惹尘埃。</p>
@@ -788,7 +799,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">11.1k</span>
+                        class="white-color">11.6k</span>
             
             
             
