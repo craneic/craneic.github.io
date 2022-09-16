@@ -331,7 +331,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    331
+                    322
                 </div>
                 
 
@@ -354,26 +354,17 @@
 <li>服务器端只会保存登录后获取到的UserID数据，不会保存账号密码，在绑定账号后<strong>可以随意修改密码</strong>。</li>
 <li><strong>指令中的’[]’字符不需要输入</strong>。如我需要绑定的账号为wangxiaoming，密码为Aa123456，则需要发送的消息为：.aq.login wangxiaoming Aa123456；而不是.aq.login [wangxiaoming] [Aa123456]，错误添加字符会导致登录失败。</li>
 <li>本程序实际上不会提交任何问卷数据，使用即表示您承担可能的风险。</li>
-<li>仅支持完成活动专题，暂不支持完成安全课时。</li>
+<li>支持完成活动专题及安全课时。</li>
 </ul>
 </blockquote>
 <h2 id="指令列表"><a href="#指令列表" class="headerlink" title="指令列表"></a><strong>指令列表</strong></h2><blockquote>
 <ul>
-<li><p>&#x2F;帮助：获取功能菜单</p>
-</li>
-<li><p>&#x2F;绑定账号 [账号] [密码]：绑定账号</p>
-</li>
-<li><p>&#x2F;取消绑定：取消绑定账号</p>
-</li>
-<li><p>&#x2F;完成活动 [活动ID] [Step]：访问活动API</p>
-</li>
-<li><p>活动ID根据专题活动的不同而不同，</p>
-<p>管理员跟随活动进度而批量完成活动，</p>
-<p>同时会将活动及对应ID信息发送到相关子频道中。</p>
-<p>Step指完成步骤，如常规专题活动中Step为1&#x3D;看视频签到，Step为2&#x3D;完成问卷。</p>
-</li>
-<li><p>&#x2F;假期专项 [年份] [学期] [Step]：完成假期专项学习任务</p>
-</li>
+<li>&#x2F;帮助：获取功能菜单</li>
+<li>&#x2F;绑定账号 [账号] [密码]：绑定账号</li>
+<li>&#x2F;取消绑定：取消绑定账号</li>
+<li>&#x2F;完成活动：完成账号下未完成的所有任务（包括活动专题及安全课时）</li>
+<li>&#x2F;假期专项 [年份] [学期] [Step]：完成假期专项学习任务</li>
+<li>PS：绑定账号后，Bot每隔一段时间会自动检测并完成账号下未完成的所有任务，同时将【任务反馈】推送至功能子频道，届时你会收到AT信息。该功能无法关闭。</li>
 </ul>
 </blockquote>
 <p><img src="https://pic.jitudisk.com/public/2022/08/25/7edaaf309327e.png" alt="示例图片"></p>
@@ -634,7 +625,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">11.7k</span>
+                        class="white-color">11.9k</span>
             
             
             
